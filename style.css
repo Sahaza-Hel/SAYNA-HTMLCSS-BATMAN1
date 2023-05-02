@@ -2,45 +2,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
 
 :root{
-    color: #FFFF00;
-    color: #f8f184;
-    color: #19587d;
-    color: #b11313;
-    color: #0d0e09;
-    color: #EDDEBF;
-    color: #19587d;
-    color: #890008;
-    color: #c4c4c4;
-    color: #000000;
-    color: #ffffff;
+    --main-yellow: #FFFF00;
+    --sub-yellow: #f8f184;
+    --main-blue: #19587d;
+    --sub-red: #b11313;
+    --alt-black: #0d0e09;
+    --duck-yellow: #EDDEBF;
+    --sub-blue: #19587d;
+    --main-red: #890008;
+    --sub-purple: #c4c4c4;
+    --main-black: #000000;
+    --main-white: #ffffff;
 }
 
 
 body{
-    background-color: #000000;
+    background-color:var(--main-black);
+    margin: 0;
+    color: var(--main-white);
 }
 
 nav{
     display: flex;
     align-items: center; 
-    justify-content: space-between; 
+    justify-content: space-around;
+    /* margin-inline: em; */
     padding: 30px;
 
 }
 nav div a{
-    color: #ffffff;
+    color:var(--main-white);
     font-size: 30px;
     font-weight: 500;
     font-family: 'Times New Roman', Times, serif;
 
 }
 nav a:hover{
-    color: #ffff00;
+    color: var(--main-yellow);
 }
 
 header{
     background-image: url(./assets/Illustrations/Bathome1.png);
-    background-position: top;
+    background-position: center;
+    background-size: 100%;
     background-repeat: no-repeat;
     height: 700px;
 
@@ -57,8 +61,12 @@ header{
     padding-top: 150px;
 
 }
+.content p {
+  width: 40%;
+  align-self: center;
+}
 .button a{
-    color: #ffffff;
+    color:var(--main-white);
     text-decoration: none;
     font-size: 22px;
     padding: 10px 20px;
