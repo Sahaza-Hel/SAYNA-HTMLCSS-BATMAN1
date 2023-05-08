@@ -20,13 +20,14 @@ body{
     background-color:var(--main-black);
     margin: 0;
     color: var(--main-white);
+
 }
 
 nav{
     display: flex;
     align-items: center; 
     justify-content: space-around;
-    /* margin-inline: em; */
+    margin-inline: 2em;
     padding: 30px;
 
 }
@@ -56,28 +57,43 @@ header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 60%;
+    width: 40%;
     margin: 0 auto;
     padding-top: 150px;
 
 }
 .content p {
-  width: 40%;
+    width: 80%;
   align-self: center;
 }
 .button a{
     color:var(--main-white);
     text-decoration: none;
     font-size: 22px;
-    padding: 10px 20px;
+    padding: 20px 40px;
+
 }
 .down{
     display:flex;
     justify-content: center;
     margin: 0 auto;
     margin-top: 20px;
-
+}
+body .subtitle h2{
+    font-family: 'Rajdhani';
+    font-weight:medium;
+    font-size: 36px;
+}
+body .subtitle p{
+    font-family:'Space grotesk';
+    font-weight:normal;
+    font-size:18px;
+    padding-bottom: 58px;
 }
 
+body .perso{
+    display: flex;
+    justify-content: space-between;
+}
 
 
