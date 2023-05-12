@@ -195,121 +195,149 @@
         </div>
         <div class="perso">
             <div>
-                <img src="assets/Illustrations/Bathome11.png" alt="Justice League"> 
+                <img width="100%" src="assets/Illustrations/Bathome11.png" alt="Justice League"> 
              </div>
         </div>
-    </section> 
-    <section class="multimedia">
+    </section>
+
+    <section class="mutlimedia">
         <h2>
             MULTIMEDIA
         </h2>
-        <div class="review">
-            <img src="assets/Logos/icon_flèche_1.png" alt="left ">
-            <img src="assets/Logos/icon_flèche_2.png" alt="rigth"> 
+        <div class="container">
+             <button class="left">
+                <img src="assets/Logos/icon_flèche_1.png" alt="left ">
+            </button>
+            <button class="right">
+                <img class="right" src="assets/Logos/icon_flèche_2.png" alt="rigth">
+            </button>
         </div>
-        <figure>
-            <div class="movie">
+        <div class="slider-multimedia">
+            <div class="slider-image">
                 <img src="assets/Illustrations/Bathome_ba1.png" alt="begins">
             </div>
-            <figcaption>
-                <h3>
-                    ACTION, ADVENTURE
-                </h3>
-                <h4>
-                    Batman Begins 
-                </h4>
-                <p>
-                    IMDB: <span>8.2</span>
-                </p>
-                <p>
-                    Le jeune Bruce Wayne assiste impuissant au meurtre de ses
-                    parents. Profondément traumatisé, il grandit obnubilé par un
-                    désir de vengeance. La Ligue des ombres, une secte de
-                    guerriers ninja dirigée par Ra's al Ghul, se chargera de son
-                    entraînement. De retour chez lui à Gotham, avec l'aide de son
-                    majordome Alfred Pennyworth, Bruce Wayne se lance alors
-                    dans la lutte contre le crime sous le nom de Batman.
-                </p>
-            </figcaption>
-        </figure>
-        <div>
+            <div class="slider-content">
+                <div class="help">
+                    <h3>
+                        ACTION, ADVENTURE
+                    </h3>
+                    <h4>
+                        Batman Begins 
+                    </h4>
+                    <p>
+                        IMDB: <span class="yellow">8.2</span>
+                    </p>
+                    <p class="help">
+                        Le jeune Bruce Wayne assiste impuissant au meurtre de ses
+                        parents. Profondément traumatisé, il grandit obnubilé par un
+                        désir de vengeance. La Ligue des ombres, une secte de
+                        guerriers ninja dirigée par Ra's al Ghul, se chargera de son
+                        entraînement. De retour chez lui à Gotham, avec l'aide de son
+                        majordome Alfred Pennyworth, Bruce Wayne se lance alors
+                        dans la lutte contre le crime sous le nom de Batman.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="b.o"> 
             <img src="assets/Illustrations/Bathome_ba2.png" alt="B.O">
         </div> 
-    </section>
+    </section> 
+    <!--formulaire-->
     <section class="contact">
-        <form class="container">
-            <h1>
+        <div class="contact-form">
+            <h2>
                 PRENONS CONTACT
-            </h1>
-            <div class="form1" id="form1">
-                <label for="mail">ADRESSE EMAIL</label><br>
+            </h2>
+            <form action="">
+                <label class="titre" for="mail">ADRESSE EMAIL</label><br>
                 <input type="text" placeholder="Adresse email" id="mail" name="mail">
-            </div>
-            <div class="form2">
-                <label for="newsletter">NEWSLETTER</label><br>
-                <p>
+                <label class="titre" for="newsletter">NEWSLETTER</label><br>
+                <label for="">
                     En cochant cette case vous acceptez de recevoir l’actualité concernant les 
                     aventures de Batman :
-                     <input type="checkbox"></input>
-                </p>
-                <div class="form2-child">
-                    <select class="formSelect">
-                        <option value="" disabled selected hidden>
-                            Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter
-                        </option>
-                        <option>Une fois par semaine</option>
-                        <option>Une fois toutes les deux semaines</option>
-                        <option>Une fois par mois</option>
-                        <option>Une fois tous les trois mois</option>
-                        <option>Une fois tous les six mois</option>
-                        </select>
-                </div>
-    
-                <input type="text" placeholder="Souhaitez-vous recevoir des news" id="newsletter" name="newsletter">
-    
-            </div>
-            <section class="news-type">
-                <button type="button" class="btn-type">
-                    Des films
-                </button>
-                <button type="button" class="btn-type">
-                    Des comics
-                </button>
-                <button type="button" class="btn-type">
-                    De tout
-                </button>
-            </section>
-            <div class="form3">
-                <label for="message">MESSAGE</label><br>
-                <input type="text" placeholder="Laissez un commentaire pour la communauté" id="message" name="message">
-            </div>
-            <div class="cta">
-                <button type="submit" class="cta-btn" id="confirm">CONFIRMER</button>
-            </div>
-            <div id="modal">
-                <div class="modal-content">
-                    <div class="message">
-                        Now, You Are the Shadow, too ! <br>
-                        <button type="button" id="close-pop-up" class="cta-btn">Fermer</button>
+                </label><br>
+                <input type="checkbox"></input>
+                <div>
+                    <span>
+                        Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter
+                    </span>
+                    <span>
+                        <img src="assets/Logos/icon_flèche_2.png" alt="">
+                    </span>
+                    <div class="form2-child">
+                        <select class="formSelect">
+                            <option value="" disabled selected hidden>
+                                Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter
+                            </option>
+                            <option>Une fois par semaine</option>
+                            <option>Une fois toutes les deux semaines</option>
+                            <option>Une fois par mois</option>
+                            <option>Une fois tous les trois mois</option>
+                            <option>Une fois tous les six mois</option>
+                         </select>
                     </div>
+    
                 </div>
-            </div>
-        </form>    
+                <div>
+                    <p>
+                        Souhaitez vous recevoir des news
+                    </p>
+                </div>
+                <div class="news-types>">
+                    <input type="radio" id="film">
+                    <label for="film">Des films</label>
+                    <input type="radio" id="comics">
+                    <label for="film">Des comics</label>
+                    <input type="radio" id="tout">
+                    <label for="film">De tout</label>
+                </div>
+                <div class="form3">
+                   <label class="titre" for="messages">MESSAGES</label><br>
+                   <textarea name="" id="" cols="30" placeholder="Laissez un commentaire pour la communauté ^^" ></textarea><br>
+                   <input type="submit" value="CONFIRMER">
+                </div>
+            </form>
+        </div>    
+       
     </section>
+    <section class="container-quotes"> 
+        <div> 
+            <img src="assets/Logos/icon_guillemets_1.png" alt="">
+        </div>
+        <div class="bat-quotes"> 
+            <p>
+                 La seule façon raisonnable de vivre en ce bas monde, 
+                c'est en dehors des règles.
+            </p>
+        </div>
+        <div>
+            The Dark Knight : Le Chevalier Noir
+            Le Joker à Batman (2008)
+        </div>
+        <div>
+            <img src="assets/Logos/icon_guillemets_2.png" alt="">
+        </div>
+    </section> 
+
     <footer class="container">
         <div class="copyright">
-            <p> <img src="assets/Logos/icon_WB.png" alt="Warner Bros">
+            <p> 
+                <img src="assets/Logos/icon_WB.png" alt="Warner Bros">
                 Ce projet respecte l’univers cinématographique des films Batman récents. Version Nolan & Snyder & Reeves
             </p>
         </div>
         <div class="brand-footer">
             <div class="brand">
-                <img src="Assets/Logos/logo_sayna_white.png" alt="">
-                <img src="Assets/Logos/icon_x.png" alt="">
-                <img src="Assets/Logos/icon_DC.png" alt="">
+                <img src="assets/Logos/logo_sayna_white.png" alt="">
+                <img src="assets/Logos/icon_x.png" alt="">
+                <img src="assets/Logos/icon_DC.png" alt="">
+                <img src="assets/Logos/icon_facebook.png" alt="">
+                <img src="assets/Logos/icon_ig.png" alt="">
+                <img src="assets/Logos/icon_tw.png" alt="">
             </div>
-
-
+    </footer>
             
 </body>
 </html>

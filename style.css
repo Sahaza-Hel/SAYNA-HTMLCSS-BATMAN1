@@ -18,7 +18,6 @@
 
 body{
     background-color:var(--main-black);
-    margin: 0;
     color: var(--main-white);
 
 }
@@ -45,11 +44,9 @@ nav a:hover{
 header{
     background-image: url(./assets/Illustrations/Bathome1.png);
     background-position: center;
-    background-size: 100%;
+    background-size:cover;
     background-repeat: no-repeat;
-    height: 700px;
-
-
+    height: 800px;
 }
 .content{
     font-family:'Rajdhani' ;
@@ -57,13 +54,13 @@ header{
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    width: 40%;
-    margin: 0 auto;
+    width: 80%;
+    margin: 0 auto 0;
     padding-top: 150px;
 
 }
 .content p {
-    width: 80%;
+    width: 40%;
   align-self: center;
 }
 .button a{
@@ -83,12 +80,16 @@ body .subtitle h2{
     font-family: 'Rajdhani';
     font-weight:medium;
     font-size: 36px;
+    margin-left: 10%;
 }
 body .subtitle p{
     font-family:'Space grotesk';
     font-weight:normal;
     font-size:18px;
     padding-bottom: 58px;
+    width: 80%;
+    margin-bottom: 40px;
+    margin-left: 10%;
 }
 
 body .perso{
@@ -110,7 +111,62 @@ body .perso .info{
     text-align: center;
     font-family: 'Space Grotesk';
 }
-body div .weapon{
-    
+body .slider-multimedia{
+    display: flex;
+    width: 60%;
+    margin: 20px auto;
 }
+.slider-content{
+    font-family: 'Rajdhani';
+    padding: 14px; 
+    background-color:var(--sub-purple);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+body button{
+    position: relative;
+    top: 155px;
+    background: none;
+    border: none;
+}
+.right{
+   right: -85%; 
+}
+.yellow{
+    color: var(--sub-yellow);
+}
+body .contact{
+    margin:190px;
+}
+.contact-form{
+    margin: 0 auto;
+}
+.contact h2{
+    text-align: center;
+    font-family: 'Rajdhani';
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+.contact .titre{
+    display: block;
+    margin: 30px 0 ;
+    font-family: 'Rajdhani';
+}
+.contact form input{
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 80%;
+    background: transparent;
+}
+.news-types{
+    display: flex;
+    margin: 15px 0;
+    border-bottom: 2px solid;
+}
+
+
+
+
+
 
