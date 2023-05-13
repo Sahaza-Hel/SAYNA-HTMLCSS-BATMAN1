@@ -140,7 +140,7 @@
         <!--antagoniste-->
     </section>
     <div class="bat-pose">
-        <img src="assets/Illustrations/Bathome12.png" alt="bat-pose">
+        <img class="right" src="assets/Illustrations/Bathome12.png" alt="bat-pose">
     </div>
     <section>
         <!--alliés-->
@@ -246,25 +246,22 @@
     </section> 
     <!--formulaire-->
     <section class="contact">
-        <div class="contact-form">
+        <div class="form">
             <h2>
                 PRENONS CONTACT
             </h2>
             <form action="">
                 <label class="titre" for="mail">ADRESSE EMAIL</label><br>
-                <input type="text" placeholder="Adresse email" id="mail" name="mail">
-                <label class="titre" for="newsletter">NEWSLETTER</label><br>
+                <input type="email" placeholder="Adresse email" id="mail" name="mail">
+                <label class="titre" for="newsletter">NEWSLETTER</label>
                 <label for="">
                     En cochant cette case vous acceptez de recevoir l’actualité concernant les 
                     aventures de Batman :
-                </label><br>
+                </label>
                 <input type="checkbox"></input>
                 <div>
                     <span>
                         Choisissez la fréquence à laquelle vous souhaitez recevoir votre newsletter
-                    </span>
-                    <span>
-                        <img src="assets/Logos/icon_flèche_2.png" alt="">
                     </span>
                     <div class="form2-child">
                         <select class="formSelect">
@@ -281,26 +278,29 @@
     
                 </div>
                 <div>
-                    <p>
-                        Souhaitez vous recevoir des news
+                    <p class="news">
+                       <input type="text" placeholder="Souhaitez vous recevoir des news">
                     </p>
                 </div>
-                <div class="news-types>">
-                    <input type="radio" id="film">
+                <div class="news-types">
+                    <input type="text" id="film">
                     <label for="film">Des films</label>
-                    <input type="radio" id="comics">
+                    <input type="text" id="comics">
                     <label for="film">Des comics</label>
-                    <input type="radio" id="tout">
-                    <label for="film">De tout</label>
+                    <input type="text" id="tout">
+                    <label for="tout">De tout</label>
                 </div>
+
                 <div class="form3">
-                   <label class="titre" for="messages">MESSAGES</label><br>
+                   <p class="titre">MESSAGES</p>
                    <textarea name="" id="" cols="30" placeholder="Laissez un commentaire pour la communauté ^^" ></textarea><br>
                    <input type="submit" value="CONFIRMER">
                 </div>
-            </form>
-        </div>    
-       
+            </form>  
+        </div>
+        
+    </section>
+        
     </section>
     <section class="container-quotes"> 
         <div> 

@@ -91,6 +91,9 @@ body .subtitle p{
     margin-bottom: 40px;
     margin-left: 10%;
 }
+body .bat-pose .right{
+    right: -85%;
+}
 
 body .perso{
     display: flex;
@@ -136,34 +139,35 @@ body button{
     color: var(--sub-yellow);
 }
 body .contact{
-    margin:190px;
+    padding: 10% 0;
+    font-family: 'Rajdhani';
 }
-.contact-form{
-    margin: 0 auto;
+.contact .form{
+    padding: 50px;
+    padding-left: 30%;
 }
 .contact h2{
-    text-align: center;
     font-family: 'Rajdhani';
-    font-size: 35px;
-    margin-bottom: 35px;
+    font-size: 32px;
+    margin-bottom: 32px;
+    margin-left: 95px;
+
 }
 .contact .titre{
     display: block;
-    margin: 30px 0 ;
-    font-family: 'Rajdhani';
+
 }
-.contact form input{
+.contact .form input{
     border-top: none;
     border-right: none;
     border-left: none;
+    background-color: transparent;
     width: 80%;
-    background: transparent;
 }
-.news-types{
-    display: flex;
-    margin: 15px 0;
-    border-bottom: 2px solid;
+::placeholder{
+    color: var(--sub-purple);
 }
+
 
 
 
