@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap');
+
+:root{
+    --main-yellow: #FFFF00;
+    --sub-yellow: #f8f184;
+    --main-blue: #19587d;
+    --sub-red: #b11313;
+    --alt-black: #0d0e09;
+    --duck-yellow: #EDDEBF;
+    --sub-blue: #19587d;
+    --main-red: #890008;
+    --sub-purple: #c4c4c4;
+    --main-black: #000000;
+    --main-white: #ffffff;
+}
+
+body{
+    background-color:var(--main-black);
+    color: var(--main-white);
+}
+nav{
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    margin-inline: 2em;
+    padding: 60px;
+
+}
+nav div a{
+    color:var(--main-white);
+    font-size: 30px;
+    font-weight: 500;
+    font-family:'Space Grotesk';
+    text-decoration: none;
+    padding: 25px;
+}
+nav a:hover{
+    color: var(--main-yellow);
+    text-decoration: underline;
+}
+
+header{
+    background-image: url(./illustration-2/Batgame_1.png);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+header .scroll{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    right: 80px;
+    top: 250px;
+}
+.scroll .social{
+    margin-top: 20px;
+}
+header .intro-game{
+    padding: 15%;
+    font-family: 'Space Grotesk';
+    font-weight: bolder;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.down{
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+}

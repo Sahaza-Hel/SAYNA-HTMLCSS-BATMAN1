@@ -27,18 +27,24 @@ nav{
     align-items: center; 
     justify-content: space-around;
     margin-inline: 2em;
-    padding: 30px;
+    padding: 60px;
 
 }
 nav div a{
     color:var(--main-white);
     font-size: 30px;
     font-weight: 500;
-    font-family: 'Times New Roman', Times, serif;
+    font-family:'Space Grotesk';
+    text-decoration: none;
+    padding: 25px;
+
+
+
 
 }
 nav a:hover{
     color: var(--main-yellow);
+    text-decoration: underline;
 }
 
 header{
