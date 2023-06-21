@@ -14,7 +14,6 @@
     --main-black: #000000;
     --main-white: #ffffff;
 }
-
 body{
     background-color:var(--main-black);
     color: var(--main-white);
@@ -39,7 +38,6 @@ nav a:hover{
     color: var(--main-yellow);
     text-decoration: underline;
 }
-
 header{
     background-image: url(./illustration-2/Batgame_1.png);
     background-position: center;

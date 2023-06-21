@@ -37,10 +37,6 @@ nav div a{
     font-family:'Space Grotesk';
     text-decoration: none;
     padding: 25px;
-
-
-
-
 }
 nav a:hover{
     color: var(--main-yellow);
@@ -134,7 +130,7 @@ body .slider-multimedia{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
 }
-body button{
+body button .left .right{
     position: relative;
     top: 155px;
     background: none;
@@ -147,7 +143,7 @@ body button{
     color: var(--sub-yellow);
 }
 body .contact{
-    padding: 10% 0;
+    padding: 10% 0 10px 0;
     font-family: 'Rajdhani';
 }
 .contact .form{
@@ -175,7 +171,19 @@ body .contact{
 ::placeholder{
     color: var(--sub-purple);
 }
-
+body .contact form .news-types button{
+    font-family: 'Rajdhani';
+    color: var(--main-white);
+    text-align: center;
+    font-size: 10px;
+    background: none;
+    width: 100px;
+    margin: 0 15px 0 15px;
+    font-weight: bold;
+}
+footer{
+    justify-content: center;
+}
 
 
 
